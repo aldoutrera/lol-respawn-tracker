@@ -1,4 +1,4 @@
-# A League of Legends Buff Time Tracker
+# A League of Legends Buff Respawn Tracker
 
 I've been playing as a Jungler lately and I'm having a diffcult time at keeping track of the respawn times of the big camps, dragon and baron. It's not difficult at all, all you need to do is a simple addition and type it in the chat. But for some reason I just can't get used to
 
@@ -39,5 +39,6 @@ I know that some people might prefer an overlay, but there are actually quite so
 * Countdown.js
 * jQuery
 
-Feedback and bug reports are highly appreciated. If you are a web developer and you have some tips to increase performance, they are mostly welcome.
+Feedback and bug reports are highly appreciated.
 
+If you are a web developer and you have some tips to increase performance, they are mostly welcome.
