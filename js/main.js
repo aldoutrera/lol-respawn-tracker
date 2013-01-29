@@ -3,7 +3,7 @@
   // The timmers for the monsters
   var timers = {
     // 5 minutes
-    'campBuff': 5000,
+    'campBuff': 300000,
     // 6 minutes
     'dragon': 360000,
     // 7 minutes
@@ -49,7 +49,6 @@
             window.clearInterval(timerId);
             // We clear the timer from the timers_pool
             monster_timer_pool[$monster_id] = [];
-            console.log(monster_timer_pool);
           }
         },
         countdown.MINUTES|countdown.SECONDS);
@@ -57,7 +56,6 @@
     // We add this timer to the monster pool
     // this would be helpful to reset timers and stuff
     monster_timer_pool[$monster_id].push(timerId);
-    console.log(monster_timer_pool);
 
   });
 
