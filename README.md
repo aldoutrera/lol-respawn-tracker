@@ -8,6 +8,7 @@ I know that many of you don't have or don't want to play with another computer (
 
 ## Usage
 
+* Go [here](http://lol-respawn-tracker.pagodabox.com/) on your browser
 * Click (or tap, in your touch device) the monster. This would initiate the timer.
 * Click (or tap, in your touch device) again to delete the timer.
 * Done.
