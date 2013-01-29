@@ -1,63 +1,43 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+# A League of Legends Buff Time Tracker
 
-HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.
+I've been playing as a Jungler lately and I'm having a diffcult time at keeping track of the respawn times of the big camps, dragon and baron. It's not difficult at all, all you need to do is a simple addition and type it in the chat. But for some reason I just can't get used to
 
-This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.
+So I thought of a different approach to keep track of these timers. Being a web developer I built a tiny (really tiny) web app, where you can just click the monster you just killed and a timer would start just below.
 
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
-* Twitter: [@h5bp](http://twitter.com/h5bp)
+I know that many of you don't have or don't want to play with another computer (or laptop) being next to you, so this is why this web app is built with responsive design in mind, so you can use it through a smartphone.
 
+## Usage
 
-## Quick start
+Click (or tap, in your touch device) the monster. This would initiate the timer.
+Click (or tap, in your touch device) again to delete the timer.
+Done.
 
-Choose one of the following options:
+## Notes
 
-1. Download the latest stable release from
-   [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
-   [Initializr](http://www.initializr.com).
-2. Clone the git repo — `git clone
-   https://github.com/h5bp/html5-boilerplate.git` - and checkout the tagged
-   release you'd like to use.
+* The app is completly functional, but is only a prototype, no design and optimization at the moment.
+* The web app uses HTML5 so I don't think is going to behave nicely on older versions of IE. Meanwhile use Chrome, Firefox, Safari or Opera to use it.
 
+## Why web?
 
-## Features
+I know that some people might prefer an overlay, but there are actually quite some reasons of why I did go for web:
 
-* HTML5 ready. Use the new elements with confidence.
-* Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
-* Designed with progressive enhancement in mind.
-* Includes [Normalize.css](http://necolas.github.com/normalize.css/) for CSS
-  normalizations and common bug fixes.
-* The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
-* The latest [Modernizr](http://modernizr.com/) build for feature detection.
-* IE-specific classes for easier cross-browser control.
-* Placeholder CSS Media Queries.
-* Useful CSS helpers.
-* Default print CSS, performance optimized.
-* Protection against any stray `console.log` causing JavaScript errors in
-  IE6/7.
-* An optimized Google Analytics snippet.
-* Apache server caching, compression, and other configuration defaults for
-  Grade-A performance.
-* Cross-domain Ajax and Flash.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
+* Speed: I wanted to build something quick, on the web enviroment is really easy to prototype.
+* Flexibility: You can use this on windows, linux, mac, ios, android, on your smartphone, smartv(maybe :D), laptop, desktop, secondary monitor, etc. You can also download it or you can just enter the url. Lots of options.
+* Security: You don't need to download anything, but you can if you want to run this from your own machine.
+* Always updated: Everytime you enter the url you will be seeing the most updated version. You don't have to be re-downloading anything (unless you want to run it from your machine) everytime something gets fixed.
 
+## TO DO
 
-## Documentation
+* Design: No design at all at the moment, but this is just temporary (I wish :S).
+* Optimization: No optimization at the moment.
+* Testing on different Web Browsers.
 
-Take a look at the [documentation table of
-contents](/h5bp/html5-boilerplate/blob/master/doc/TOC.md). This
-documentation is bundled with the project, which makes it readily available for
-offline reading and provides a useful starting point for any documentation
-you want to write about your project.
+## Built with
 
+* HTML5 Boilerplate
+* Bootstrap
+* Countdown.js
+* jQuery
 
-## Contributing
+Feedback and bug reports are highly appreciated. If you are a web developer and you have some tips to increase performance, they are mostly welcome.
 
-Anyone and everyone is welcome to
-[contribute](/h5bp/html5-boilerplate/blob/master/CONTRIBUTING.md). Hundreds
-of developers have helped make the HTML5 Boilerplate what it is today.
