@@ -15,35 +15,47 @@ body {
 }
 
 .myBuff {
-    /*border-color: #468847;*/
-    background: #468847 url('/img/green-fibers.png');
+    /*background: #468847;*/
+    border-color: #468847;
+}
+
+.enemyBuff {
+    border-color: #b94a48;
+}
+
+.neutralCamp {
+    border-color: #cfcfc2;
 }
 
 .blueBuff {
     background-color: #00ABFF;
+    color: #3a87ad;
+    /*text-shadow: 0 1px 0 #2D6886;*/
+    /*text-shadow: 0 1px 0 rgba(45, 104, 134, 0.5);*/
 }
 
 .redBuff {
     background-color: #FF0000;
+    color: #b94a48;
+}
+
+.neutralBuff {
+    background-color: #cfcfc2;
+    color: #CCC;
 }
 
 .monster {
     padding: 4px 4px 4px 8px;
     margin: 4px 0;
-    background-image: url('/img/paper_1.png');
+    background-image: url('/img/black_scales.png');
     border: none;
-}
-
-.neutralCamp {
-    background-color: #cfcfc2;
-}
-
-.neutralBuff {
-    background-color: #cfcfc2;
 }
 
 span {
     font-size: 36px;
-    color: #EEE;
     line-height: 42px;
+}
+
+h2 {
+    color: #EEE;
 }
