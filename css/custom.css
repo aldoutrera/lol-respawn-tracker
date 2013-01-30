@@ -3,8 +3,8 @@ body {
 }
 
 .alert-custom {
-    border-color: #004f63;
-    background-color: #011f26;
+    border-color: #004F63;
+    background-color: #011F26;
     text-shadow: none;
 }
 
@@ -15,32 +15,29 @@ body {
 }
 
 .myBuff {
-    /*background: #468847;*/
     border-color: #468847;
 }
 
 .enemyBuff {
-    border-color: #b94a48;
+    border-color: #B94A48;
 }
 
 .neutralCamp {
-    border-color: #cfcfc2;
+    border-color: #CFCFC2;
 }
 
 .blueBuff {
     background-color: #00ABFF;
-    color: #3a87ad;
-    /*text-shadow: 0 1px 0 #2D6886;*/
-    /*text-shadow: 0 1px 0 rgba(45, 104, 134, 0.5);*/
+    color: #3A87AD;
 }
 
 .redBuff {
     background-color: #FF0000;
-    color: #b94a48;
+    color: #B94A48;
 }
 
 .neutralBuff {
-    background-color: #cfcfc2;
+    background-color: #CFCFC2;
     color: #CCC;
 }
 
@@ -49,6 +46,8 @@ body {
     margin: 4px 0;
     background-image: url('/img/black_scales.png');
     border: none;
+    text-shadow: none;
+    cursor: pointer;
 }
 
 span {
@@ -57,5 +56,5 @@ span {
 }
 
 h2 {
-    color: #EEE;
+    color: #C09853;
 }
