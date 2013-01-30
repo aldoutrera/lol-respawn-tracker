@@ -1,5 +1,7 @@
 (function(){
 
+  var formatMinutes = '', formatSeconds = '';
+
   // The timmers for the monsters
   var timers = {
     // 5 minutes
@@ -42,7 +44,9 @@
       countdown(
         campBuff,
         function(ts) {
-          $this.find('.timer').html(ts.minutes + ':' + ts.seconds);
+          formatMinutes = String("00" + ts.minutes).slice(-2);
+          formatSeconds = String("00" + ts.seconds).slice(-2);
+          $this.find('.timer').html(formatMinutes + ':' + formatSeconds);
           // We verify if the timer has ran out
           if (ts.minutes === 0 && ts.seconds === 0){
             // We clear the timer interval once the timer has reached 0
