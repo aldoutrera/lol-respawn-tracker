@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>LoL - Buff Respawn Tracker</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/custom.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -26,39 +27,36 @@
         <div class="container">
             <div class="row">
                 <div class="span4 offset4">
-                    <h2>Buff Respawn Timer</h2>
+                    <h2>LoL - Respawn Tracker</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="span12">
-                    <div class="row">
-                        <div class="span6 monster myBuff" data-id="monster-1" data-type="campBuff">
-                            <p>My Blue Buff</p>
-                            <div class="timer"></div>
+                    <div class="row myBuff">
+                        <h2>Your Buffs</h2>
+                        <div class="span6 monster" data-id="monster-1" data-type="campBuff" data-original='Blue Buff'>
+                            <button class="btn btn-large btn-block btn-primary" type="button"><span class="timer">Blue Buff</span></button>
                         </div>
-                        <div class="span6 monster myBuff" data-id="monster-2" data-type="campBuff">
-                            <p>My Red Buff</p>
-                            <div class="timer"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="span6 monster enemyBuff" data-id="monster-3" data-type="campBuff">
-                            <p>Enemy Blue Buff</p>
-                            <div class="timer"></div>
-                        </div>
-                        <div class="span6 monster enemyBuff" data-id="monster-4" data-type="campBuff">
-                            <p>Enemy Red Buff</p>
-                            <div class="timer"></div>
+                        <div class="span6 monster" data-id="monster-2" data-type="campBuff" data-original='Red Buff'>
+                            <button class="btn btn-large btn-block btn-danger" type="button"><span class="timer">Red Buff</span></button>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="span6 monster neutralBuff" data-id="monster-5" data-type="dragon">
-                            <p>Dragon</p>
-                            <div class="timer"></div>
+                    <div class="row enemyBuff">
+                        <h2>Enemy Buffs</h2>
+                        <div class="span6 monster" data-id="monster-3" data-type="campBuff" data-original='Blue Buff'>
+                            <button class="btn btn-large btn-block btn-primary" type="button"><span class="timer">Blue Buff</span></button>
                         </div>
-                        <div class="span6 monster neutralBuff" data-id="monster-6" data-type="baron">
-                            <p>Baron Nashor</p>
-                            <div class="timer"></div>
+                        <div class="span6 monster" data-id="monster-4" data-type="campBuff" data-original='Red Buff'>
+                            <button class="btn btn-large btn-block btn-danger" type="button"><span class="timer">Red Buff</span></button>
+                        </div>
+                    </div>
+                    <div class="row neutralBuff">
+                        <h2>Neutral Monsters</h2>
+                        <div class="span6 monster" data-id="monster-5" data-type="dragon" data-original='Dragon'>
+                            <button class="btn btn-large btn-block" type="button"><span class="timer">Dragon</span></button>
+                        </div>
+                        <div class="span6 monster" data-id="monster-6" data-type="baron" data-original='Baron Nashor'>
+                            <button class="btn btn-large btn-block" type="button"><span class="timer">Baron Nashor</span></button>
                         </div>
                     </div>
                 </div>
