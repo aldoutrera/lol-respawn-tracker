@@ -44,9 +44,8 @@
       countdown(
         campBuff,
         function(ts) {
-          formatMinutes = String("00" + ts.minutes).slice(-2);
           formatSeconds = String("00" + ts.seconds).slice(-2);
-          $this.find('.timer').html(formatMinutes + ':' + formatSeconds);
+          $this.find('.timer').html(ts.minutes + ':' + formatSeconds);
           // We verify if the timer has ran out
           if (ts.minutes === 0 && ts.seconds === 0){
             // We clear the timer interval once the timer has reached 0
