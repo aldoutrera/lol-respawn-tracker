@@ -31,32 +31,54 @@
                 </div>
             </div>
             <div class="row">
+               <div class="alert alert-block">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <h4>Usage!</h4>
+                    Click or Tap to start the timer. Click or Tap again to clear it.
+                </div>
+            </div>
+            <div class="row">
                 <div class="span12">
-                    <div class="row myBuff">
-                        <h2>Your Buffs</h2>
-                        <div class="span6 monster" data-id="monster-1" data-type="campBuff" data-original='Blue Buff'>
-                            <button class="btn btn-large btn-block btn-primary" type="button"><span class="timer">Blue Buff</span></button>
+                    <div class="row myBuff alert alert-success">
+                        <div class="monster blueBuff alert-info" data-id="monster-1" data-type="campBuff" data-original='Blue Buff'>
+                            <p>
+                                <span>Blue Buff</span>
+                                <span class='pull-right timer'></span>
+                            </p>
                         </div>
-                        <div class="span6 monster" data-id="monster-2" data-type="campBuff" data-original='Red Buff'>
-                            <button class="btn btn-large btn-block btn-danger" type="button"><span class="timer">Red Buff</span></button>
-                        </div>
-                    </div>
-                    <div class="row enemyBuff">
-                        <h2>Enemy Buffs</h2>
-                        <div class="span6 monster" data-id="monster-3" data-type="campBuff" data-original='Blue Buff'>
-                            <button class="btn btn-large btn-block btn-primary" type="button"><span class="timer">Blue Buff</span></button>
-                        </div>
-                        <div class="span6 monster" data-id="monster-4" data-type="campBuff" data-original='Red Buff'>
-                            <button class="btn btn-large btn-block btn-danger" type="button"><span class="timer">Red Buff</span></button>
+                        <div class="monster redBuff alert-error" data-id="monster-2" data-type="campBuff" data-original='Red Buff'>
+                            <p>
+                                <span>Red Buff</span>
+                                <span class='pull-right timer'></span>
+                            </p>
                         </div>
                     </div>
-                    <div class="row neutralBuff">
-                        <h2>Neutral Monsters</h2>
-                        <div class="span6 monster" data-id="monster-5" data-type="dragon" data-original='Dragon'>
-                            <button class="btn btn-large btn-block" type="button"><span class="timer">Dragon</span></button>
+                    <div class="row enemyBuff alert alert-error">
+                        <div class="monster blueBuff" data-id="monster-3" data-type="campBuff" data-original='Blue Buff'>
+                            <p>
+                                <span>Blue Buff</span>
+                                <span class='pull-right timer'></span>
+                            </p>
                         </div>
-                        <div class="span6 monster" data-id="monster-6" data-type="baron" data-original='Baron Nashor'>
-                            <button class="btn btn-large btn-block" type="button"><span class="timer">Baron Nashor</span></button>
+                        <div class="monster redBuff" data-id="monster-4" data-type="campBuff" data-original='Red Buff'>
+                            <p>
+                                <span>Red Buff</span>
+                                <span class='pull-right timer'></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row neutralCamp">
+                        <div class="monster neutralBuff" data-id="monster-5" data-type="dragon" data-original='Dragon'>
+                            <p>
+                                <span>Dragon</span>
+                                <span class='pull-right timer'></span>
+                            </p>
+                        </div>
+                        <div class="monster neutralBuff" data-id="monster-6" data-type="baron" data-original='Baron Nashor'>
+                            <p>
+                                <span>Baron Nashor</span>
+                                <span class='pull-right timer'></span>
+                            </p>
                         </div>
                     </div>
                 </div>
