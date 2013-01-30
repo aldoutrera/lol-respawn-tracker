@@ -1,12 +1,37 @@
+body {
+    background: url('/img/bg.jpg') repeat;
+}
+
+.alert-custom {
+    border-color: #004f63;
+    background-color: #011f26;
+    text-shadow: none;
+}
+
 .myBuff, .enemyBuff, .neutralCamp {
     margin-bottom: 10px;
     padding: 0 4px;
     color: white;
 }
 
+.myBuff {
+    /*border-color: #468847;*/
+    background: #468847 url('/img/green-fibers.png');
+}
+
+.blueBuff {
+    background-color: #00ABFF;
+}
+
+.redBuff {
+    background-color: #FF0000;
+}
+
 .monster {
     padding: 4px 4px 4px 8px;
     margin: 4px 0;
+    background-image: url('/img/paper_1.png');
+    border: none;
 }
 
 .neutralCamp {
@@ -19,4 +44,6 @@
 
 span {
     font-size: 36px;
+    color: #EEE;
+    line-height: 42px;
 }
