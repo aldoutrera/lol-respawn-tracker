@@ -23,7 +23,6 @@
     var $this       = $(this);
     var $monster_id = $(this).attr('data-id');
     var campBuff    = Date.now() + timers[$this.attr('data-type')];
-    var originalText = $(this).attr('data-original');
 
     // We verify if this monster has already a timer
     if (monster_timer_pool[$monster_id].length !== 0) {
@@ -34,7 +33,7 @@
       // Now that the timers has been stopped, lets clear the pool
       monster_timer_pool[$monster_id] = [];
       // Lets clear the element
-      $this.find('.timer').empty().text(originalText);
+      $this.find('.timer').empty();
       // Lets stop
       return false;
     }
@@ -43,7 +42,7 @@
       countdown(
         campBuff,
         function(ts) {
-          $this.find('.timer').html(ts.toString());
+          $this.find('.timer').html(ts.minutes + ':' + ts.seconds);
           // We verify if the timer has ran out
           if (ts.minutes === 0 && ts.seconds === 0){
             // We clear the timer interval once the timer has reached 0
