@@ -1,5 +1,5 @@
 body {
-    background: url('../img/bg.jpg') repeat;
+    background:#011F26 url('../img/bg.jpg') no-repeat;
 }
 
 .alert-custom {
@@ -32,4 +32,14 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+}
+
+.sign {
+    color: #C09853;
+    text-align: center;
+}
+
+.sign a {
+    font-weight: bold;
+    font-style: italic;
 }
