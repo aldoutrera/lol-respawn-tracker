@@ -1,5 +1,5 @@
 body {
-    background: url('/img/bg.jpg') repeat;
+    background: url('../img/bg.jpg') repeat;
 }
 
 .alert-custom {
@@ -44,7 +44,7 @@ body {
 .monster {
     padding: 4px 4px 4px 8px;
     margin: 4px 0;
-    background-image: url('/img/black_scales.png');
+    background-image: url('../img/black_scales.png');
     border: none;
     text-shadow: none;
     cursor: pointer;
