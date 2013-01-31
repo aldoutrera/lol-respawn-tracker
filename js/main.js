@@ -21,9 +21,9 @@
     'monster-6': []
   };
 
-  $('.monster').click(function(){
-    var $this       = $(this);
-    var $monster_id = $(this).attr('data-id');
+  $('.monster img').click(function(){
+    var $this       = $(this).parent();
+    var $monster_id = $this.attr('data-id');
     var campBuff    = Date.now() + timers[$this.attr('data-type')];
 
     // We verify if this monster has already a timer
