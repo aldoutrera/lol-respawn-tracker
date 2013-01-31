@@ -52,6 +52,8 @@
             window.clearInterval(timerId);
             // We clear the timer from the timers_pool
             monster_timer_pool[$monster_id] = [];
+            // Lets clear the element
+            $this.find('.timer').empty();
           }
         },
         countdown.MINUTES|countdown.SECONDS);
