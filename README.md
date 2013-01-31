@@ -8,6 +8,8 @@ I know that many of you don't have or don't want to play with another computer (
 
 ## Usage
 
+**Important: ** The demo is hosted in a free node of the Pagodabox service. If the web app has not being accessed for an hour or more, the server will idle, so there might be a startup lag when you visit it.
+
 * Go [here](http://lol-respawn-tracker.pagodabox.com/) on your browser
 * Click (or tap, in your touch device) the monster. This would initiate the timer.
 * Click (or tap, in your touch device) again to delete the timer.
@@ -15,7 +17,7 @@ I know that many of you don't have or don't want to play with another computer (
 
 ## Notes
 
-* The app is completly functional, but is only a prototype, no design and optimization at the moment.
+* The app is completly functional, but is only a prototype, no optimization at the moment.
 * The web app uses HTML5 so I don't think is going to behave nicely on older versions of IE. Meanwhile use Chrome, Firefox, Safari or Opera to use it.
 
 ## Why web?
@@ -29,7 +31,6 @@ I know that some people might prefer an overlay, but there are actually quite so
 
 ## TO DO
 
-* Design: No design at all at the moment, but this is just temporary (I wish :S).
 * Optimization: No optimization at the moment.
 * Testing on different Web Browsers.
 
