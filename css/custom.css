@@ -23,8 +23,9 @@ body {
     font-weight: bold;
 }
 
-h2 {
+.title {
     color: #C09853;
+    text-align: center;
 }
 
 .img-center {
